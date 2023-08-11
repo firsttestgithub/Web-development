@@ -1,0 +1,172 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background:url('gym pick new.webp');
+    font-family: 'Roboto', sans-serif;
+    background-attachment: fixed;
+   
+}
+
+.left{
+    display: inline-block;
+
+color: aliceblue;
+position: absolute;
+left:60px;
+top:20px;
+}
+.left p{
+    line-height: 19px;
+    font-size: 23px;
+    text-align: center;
+}
+.mid{
+position: fixed;
+top:0%;
+width: 100%;
+}
+
+.right{
+display: inline-block;
+
+color: aliceblue;
+position: absolute;
+right:34px;
+top:20px;
+}
+.left img{
+    width:136px;
+}/*
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    float: left;
+    font-size: 25px;
+}
+.navbar li a{
+   
+    color:black;
+    text-decoration: none;
+    padding: 24px 23px;
+    font-weight: bold;
+}
+
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    color:gray
+}*/
+
+.btn{
+    margin: 0px 9px;
+    color:white;
+    background-color: black;
+    padding:4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size:20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(90, 87, 87);
+}
+
+.container{
+    border:3px solid white;
+    margin:180px 80px;
+    padding: 75px;
+    width:50%;
+    height: auto;
+    border-radius: 28px;
+}
+.container h1{
+    text-align: center;
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: bold;
+}
+.container button{
+    display: block;
+    width:74%;
+    margin: 20px auto;
+}
+.form-group input{
+text-align: center;
+display: block;
+width:73%;
+padding: 5px;
+border: 2px solid black;
+font-size: 25px;
+margin: 11px auto;
+border-radius: 8px;
+
+}
+
+.form-group input:focus{
+border-radius: 20px;
+border: 5px solid black;
+}
+#myNavbar{
+    float:right;
+    padding: 23px;
+}
+.nav{
+    display: inline-block;
+   margin-right: 280px;
+    
+}
+   
+li span{
+    color:white;
+    font-size:20px;
+    transition: all .5s;
+    list-style-type: none;
+   
+}
+span:hover{
+    color:rgb(139, 135, 135);
+      transition: 0.4s ease;
+     padding-bottom:10px;
+      height: 0.10rem;
+      opacity: 1;
+      border-bottom: 1px solid #66b1f6;
+      cursor: pointer;
+    }
+
+    .pick-one{
+        width: 230px;
+        height:auto;   
+       position: absolute;
+
+       left:0%;
+       right:0%;
+       padding:30px;
+    
+      }
+      input[type=text]:hover{
+        box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+      }
+      input[type=text]:focus {
+        box-shadow: 0 0 5pt 2pt #D3D3D3;
+        outline-width: 0px;
+      }
+      @media only screen and (max-width: 700px) {
+       
+        .navbar-header img{
+            padding-top:2px;
+            width:200px;
+        }
+    
+    .collapse ul{
+      
+        margin: 0px auto;
+       
+    }
+    .container{
+            width:80%;
+        }
+        .right{
+            display: none;
+        }
+      }
